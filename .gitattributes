@@ -1,0 +1,19 @@
+* text=auto
+*.txt eol=crlf
+*.cs text diff=csharp
+*.csproj text merge=union 
+*.sln text merge=union 
+*.proj text
+*.config text
+*.bat text
+*.xml text
+*.xsd text
+*.ps1 text
+*.Targets text
+*.js text
+*.css text
+*.map text
+*.html text
+*.exe binary
+*.pdb binary
+*.dll binary
