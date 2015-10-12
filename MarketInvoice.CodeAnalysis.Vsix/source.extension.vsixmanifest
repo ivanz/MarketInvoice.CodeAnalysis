@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="MarketInvoice.CodeAnalysis.Vsix..8a3b14aa-5558-4c80-b083-e97a3c3825c0" Version="0.1" Language="en-US" Publisher="MarketInvoice Limited"/>
-    <DisplayName>MarketInvoice.CodeAnalysis.Vsix</DisplayName>
-    <Description xml:space="preserve">This is a sample code refactoring extension for the .NET Compiler Platform ("Roslyn").</Description>
+    <Identity Id="MarketInvoice.CodeAnalysis" Version="0.1" Language="en-US" Publisher="MarketInvoice Limited"/>
+    <DisplayName>MarketInvoice Roslyn Pack</DisplayName>
+    <Description xml:space="preserve">Contains various refactorings, code analysis and code fixes for Visual Studio.Contains various </Description>
     <MoreInfo>https://github.com/marketinvoice/MarketInvoice.CodeAnalysis</MoreInfo>
     <License>LICENSE.txt</License>
   </Metadata>
