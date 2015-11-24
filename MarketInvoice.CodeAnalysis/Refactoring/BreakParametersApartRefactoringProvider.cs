@@ -84,7 +84,7 @@ namespace MarketInvoice.CodeAnalysis.Refactoring
             foreach (ParameterSyntax parameter in parameterListNode.Parameters.Skip(1).ToList())
                 updatedParameters.Add(parameter
                                         .WithoutTrailingTrivia()
-                                        .WithLeadingTrivia(SyntaxFactory.EndOfLine("\n"), GetIndentTrivia(parameterListNode)));
+                                        .WithLeadingTrivia(SyntaxFactory.EndOfLine("\r\n"), GetIndentTrivia(parameterListNode)));
 
             ParameterListSyntax updatedParameterList = SyntaxFactory.ParameterList(parameterListNode.OpenParenToken, 
                                                                                    SyntaxFactory.SeparatedList(updatedParameters), 
